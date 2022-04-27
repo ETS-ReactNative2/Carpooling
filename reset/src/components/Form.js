@@ -22,7 +22,7 @@ export default function Form() {
 
     const verifyToken = async() =>{
         try{
-           const {data} = await axios(`${baseUrl}/verify-token?token=${token}&id=${id}`
+           const {busy} = await axios(`${baseUrl}/verify-token?token=${token}&id=${id}`
            );
            setBusy(false);
 

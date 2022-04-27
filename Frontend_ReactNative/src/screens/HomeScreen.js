@@ -105,23 +105,81 @@ const HomeScreen = ({ navigation }) => {
             </View>
           </View>
         </View>
-        <SelectDropdown
-          data={roles}
-          onSelect={(selectedItem, index) => {
-            console.log(selectedItem, index);
-          }}
-          buttonTextAfterSelection={(selectedItem, index) => {
-            // text represented after item is selected
-            // if data array is an array of objects then return selectedItem.property to render after item is selected
-            return selectedItem;
-          }}
-          rowTextForSelection={(item, index) => {
-            // text represented for each item in dropdown
-            // if data array is an array of objects then return item.property to represent item in dropdown
-            return item;
-          }}
-        />
-
+        
+        <View style={styles.View3}>
+          <Text style={styles.text3}> Where to ?</Text>
+          <View style={styles.View4}>
+            <Icon
+              type="material-community"
+              name="clock-time-four"
+              color={colors.grey1}
+              size={26}
+            />
+            <Text style={{ marginLeft: 5 }}>Now</Text>
+            <Icon
+              type="material-community"
+              name="chevron-down"
+              color={colors.grey1}
+              size={26}
+            />
+          </View>
+        </View>
+        <View style={styles.View5}>
+          <View style={styles.View6}>
+            <View style={styles.View7}>
+              <Icon
+                type="material-community"
+                name="map-marker"
+                color={colors.grey1}
+                size={15}
+              />
+            </View>
+            <View>
+              <Text style={{ fontSize: 18, color: colors.black }}>
+                52 Julampitiya Rd
+              </Text>
+              <Text style={{ color: colors.grey3 }}>
+                155,Belihuloya,SriLanka
+              </Text>
+            </View>
+          </View>
+          <View>
+            <Icon
+              type="material-community"
+              name="chevron-right"
+              color={colors.grey}
+              size={20}
+            />
+          </View>
+        </View>
+        <View style={{ ...styles.View5, borderBottomWidth: 0 }}>
+          <View style={styles.View6}>
+            <View style={styles.View7}>
+              <Icon
+                type="material-community"
+                name="map-marker"
+                color={colors.grey1}
+                size={15}
+              />
+            </View>
+            <View>
+              <Text style={{ fontSize: 18, color: colors.black }}>
+                52 Julampitiya Rd
+              </Text>
+              <Text style={{ color: colors.grey3 }}>
+                155,Belihuloya,SriLanka
+              </Text>
+            </View>
+          </View>
+          <View>
+            <Icon
+              type="material-community"
+              name="chevron-right"
+              color={colors.grey}
+              size={20}
+            />
+          </View>
+        </View>
         <Text style={styles.text4}>Around you</Text>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
           <MapView

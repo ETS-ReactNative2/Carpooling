@@ -156,13 +156,14 @@ const styles = StyleSheet.create({
     borderRadius: 30,
   },
   input1: {
-    height: 40,
+    height: 35,
     margin: 2,
     borderWidth: 1,
     padding: 1,
     paddingLeft: 10,
     paddingRight: 10,
     marginTop: 10,
+    marginBottom: 5,
     borderRadius: 30,
   },
   text2: {

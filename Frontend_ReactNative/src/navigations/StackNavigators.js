@@ -10,53 +10,68 @@ import ForgotPassword from "../screens/ForgotPassword";
 import AddScreen from "../screens/AddScreen";
 import RatingScreen from "../screens/RatingScreen";
 import CalculateScreen from "../screens/CalculateScreen";
-import SignupVerifyScreen from "../screens/SignupVerifyScreen";
+import SignupVerifyScreen from "../screens/SignupVerifyDriverScreen";
+import CameraScreen from "../screens/CameraScreen";
+import SignupVerifyDriverScreen from "../screens/SignupVerifyDriverScreen";
+import SignupVerifyPassengerScreen from "../screens/SignupVerifyPassengerScreen";
 
 const Home = createNativeStackNavigator();
 
 export function HomeStack() {
   return (
-    
     <Home.Navigator>
         <Home.Screen
+        name="SignupVerifyDriverScreen"
+        component={SignupVerifyDriverScreen}
+        options={{ headerShown: false }}
+      />
+        <Home.Screen
+        name="SignupVerifyPassengerScreen"
+        component={SignupVerifyPassengerScreen}
+        options={{ headerShown: false }}
+      />
+     
+      <Home.Screen
         name="HomeScreen"
         component={HomeScreen}
         options={{ headerShown: false }}
       />
-       <Home.Screen
-        name="RequestScreen"
-        component={RequestScreen}
-        options={{ headerShown: false }}
-      />
-      
-      <Home.Screen
-        name="DestinationScreen"
-        component={DestinationScreen}
-        options={{ headerShown: false }}
-      />
-      <Home.Screen
-        name="SignupVerifyScreen"
-        component={SignupVerifyScreen}
-        options={{ headerShown: false }}
-      />
-     
       <Home.Screen
         name="CalculateScreen"
         component={CalculateScreen}
         options={{ headerShown: false }}
       />
 
-    
       <Home.Screen
-        name="AddScreen"
-        component={AddScreen}
+        name="RatingScreen"
+        component={RatingScreen}
         options={{ headerShown: false }}
       />
+
       <Home.Screen
         name="SplashScreen"
         component={SplashScreen}
         options={{ headerShown: false }}
       />
+
+      <Home.Screen
+        name="RequestScreen"
+        component={RequestScreen}
+        options={{ headerShown: false }}
+      />
+
+      <Home.Screen
+        name="DestinationScreen"
+        component={DestinationScreen}
+        options={{ headerShown: false }}
+      />
+     
+      <Home.Screen
+        name="AddScreen"
+        component={AddScreen}
+        options={{ headerShown: false }}
+      />
+
       <Home.Screen
         name="SigninScreen"
         component={SigninScreen}
@@ -72,13 +87,11 @@ export function HomeStack() {
         component={SignupScreen}
         options={{ headerShown: false }}
       />
-    
-      <Home.Screen
-        name="RatingScreen"
-        component={RatingScreen}
+       <Home.Screen
+        name="CameraScreen"
+        component={CameraScreen}
         options={{ headerShown: false }}
       />
-     
     </Home.Navigator>
   );
 }
