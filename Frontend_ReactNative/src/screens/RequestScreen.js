@@ -11,6 +11,7 @@ import { Avatar, Icon } from "react-native-elements";
 import { colors, parameters } from "../global/style";
 import MapComponent from "../components/MapComponent";
 import { OriginContext, DestinationContext } from "../contexts/contexts";
+import MapViewDirections from 'react-native-maps-directions';
 
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 const SCREEN_WIDTH = Dimensions.get("window").width;

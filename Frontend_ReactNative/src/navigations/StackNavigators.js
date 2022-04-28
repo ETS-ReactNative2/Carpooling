@@ -14,12 +14,19 @@ import SignupVerifyScreen from "../screens/SignupVerifyDriverScreen";
 import CameraScreen from "../screens/CameraScreen";
 import SignupVerifyDriverScreen from "../screens/SignupVerifyDriverScreen";
 import SignupVerifyPassengerScreen from "../screens/SignupVerifyPassengerScreen";
+import ReqBookScreen from "../screens/ReqBookScreen";
+
 
 const Home = createNativeStackNavigator();
 
 export function HomeStack() {
   return (
     <Home.Navigator>
+       <Home.Screen
+        name="ReqBookScreen"
+        component={ReqBookScreen}
+        options={{ headerShown: false }}
+      />
         <Home.Screen
         name="SignupVerifyDriverScreen"
         component={SignupVerifyDriverScreen}

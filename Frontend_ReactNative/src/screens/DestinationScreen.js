@@ -13,6 +13,7 @@ import { colors, parameters } from "../global/style";
 import { GOOGLE_MAPS_APIKEY } from "@env";
 import { OriginContext, DestinationContext } from "../contexts/contexts";
 
+
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
@@ -117,7 +118,7 @@ const DestinationScreen = ({ navigation }) => {
               },
             });
 
-            navigation.navigate("RequestScreen", { state: 0 });
+            navigation.navigate("ReqBookScreen", { state: 0 });
           }}
         />
       )}
