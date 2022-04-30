@@ -15,29 +15,35 @@ import CameraScreen from "../screens/CameraScreen";
 import SignupVerifyDriverScreen from "../screens/SignupVerifyDriverScreen";
 import SignupVerifyPassengerScreen from "../screens/SignupVerifyPassengerScreen";
 import ReqBookScreen from "../screens/ReqBookScreen";
-
+import BookScreen from "../screens/BookScreen";
 
 const Home = createNativeStackNavigator();
 
 export function HomeStack() {
   return (
     <Home.Navigator>
-       <Home.Screen
+        <Home.Screen
         name="ReqBookScreen"
         component={ReqBookScreen}
         options={{ headerShown: false }}
       />
-        <Home.Screen
+      <Home.Screen
+        name="BookScreen"
+        component={BookScreen}
+        options={{ headerShown: false }}
+      />
+    
+      <Home.Screen
         name="SignupVerifyDriverScreen"
         component={SignupVerifyDriverScreen}
         options={{ headerShown: false }}
       />
-        <Home.Screen
+      <Home.Screen
         name="SignupVerifyPassengerScreen"
         component={SignupVerifyPassengerScreen}
         options={{ headerShown: false }}
       />
-     
+
       <Home.Screen
         name="HomeScreen"
         component={HomeScreen}
@@ -72,7 +78,7 @@ export function HomeStack() {
         component={DestinationScreen}
         options={{ headerShown: false }}
       />
-     
+
       <Home.Screen
         name="AddScreen"
         component={AddScreen}
@@ -94,7 +100,7 @@ export function HomeStack() {
         component={SignupScreen}
         options={{ headerShown: false }}
       />
-       <Home.Screen
+      <Home.Screen
         name="CameraScreen"
         component={CameraScreen}
         options={{ headerShown: false }}

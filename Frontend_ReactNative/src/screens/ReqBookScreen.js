@@ -54,7 +54,7 @@ const ReqBookScreen = ({ navigation }) => {
       </View>
   
       <TouchableOpacity 
-       onPress={() => navigation.navigate("HomeScreen")}
+       onPress={() => navigation.navigate("BookScreen")}
       style={ styles.bottomView} >
 
 <Text style={styles.textStyle}>Book Vehicle</Text>
