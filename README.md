@@ -23,7 +23,7 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 -  Email Authentication
 -  After registering with the app, the user goes to the document adding the page, considering whether he is a driver or a passenger.
 -  User Passenger goes to National Id & Profile photo adding page, and User driver goes to License & Profile Photo adding page.
--  The user can log in to the Home page :tangerine: .
+-  The user can log in to the Home page.
 -  You can fill in the details for the relevant day from the Home page. You can add those details separately as Passenger & Driver.
 -  Email Verification,  Forgot Password, One-Time Password
 -  If the user is a passenger through the Request Screen, he can add Pick Places and Drop Places and look at the drivers going to the area around him.
@@ -41,10 +41,14 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 - npm install
 ```
 #### Run
--Download the expo app on your phone after run *expo start* in VS code terminal 
+-Download the Expo app on your phone after running *expo start* in VS code terminal 
 ```
 - expo start
 ```
+- After that scan, the QR code & can be set up on your mobile phone
+
+
+
 
 
 
