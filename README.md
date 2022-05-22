@@ -45,10 +45,12 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 ```
 - expo start
 ```
-- After that scan, the QR code & can be set up on your mobile phone
+- After that scan, the QR code & can be set up on your mobile phone.
 
+# Project Screenshots
 
-
+1. Splash Page
+<img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/splash.jpeg?raw=true" alt="drawing" style="width:200px;"/>
 
 
 
