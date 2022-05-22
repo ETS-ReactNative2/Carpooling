@@ -4,7 +4,7 @@ Carpooling is the sharing of car journeys so that more than one person travels i
 # Project Description
 Carpooling is an android and iOS application that manages everything from one area to another, making it easy for people to work together, with many benefits such as ease of transportation, saving money, reducing pollution, and reducing traffic congestion.
 
-Many mobile apps can rent a vehicle online. But there is a substantial rental cost for the car :open_mouth: . Also, if they use their own vehicle, it will take as much time as the cost of petrol :red_car: :red_car: . It takes more time as they get stuck in considerable traffic while traveling in their car. This will reduce the time-consuming process as the traffic congestion on the road will be significantly reduced when several people travel together for work in a vehicle.
+Many mobile apps can rent a vehicle online. But there is a substantial rental cost for the car. Also, if they use their own vehicle, it will take as much time as the cost of petrol. It takes more time as they get stuck in considerable traffic while traveling in their car. This will reduce the time-consuming process as the traffic congestion on the road will be significantly reduced when several people travel together for work in a vehicle.
 
 #### Software Requirements
 - React Native
