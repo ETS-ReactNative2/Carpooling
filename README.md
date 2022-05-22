@@ -41,7 +41,7 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 - npm install
 ```
 #### Run
--Download the Expo app on your phone after running *expo start* in VS code terminal 
+- Download the Expo app on your phone after running *expo start* in VS code terminal 
 ```
 - expo start
 ```
