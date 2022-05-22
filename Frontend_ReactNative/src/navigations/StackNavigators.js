@@ -22,7 +22,24 @@ const Home = createNativeStackNavigator();
 export function HomeStack() {
   return (
     <Home.Navigator>
-        <Home.Screen
+      <Home.Screen
+        name="SplashScreen"
+        component={SplashScreen}
+        options={{ headerShown: false }}
+      />
+
+      <Home.Screen
+        name="SignupScreen"
+        component={SignupScreen}
+        options={{ headerShown: false }}
+      />
+      <Home.Screen
+        name="SigninScreen"
+        component={SigninScreen}
+        options={{ headerShown: false }}
+      />
+
+      <Home.Screen
         name="ReqBookScreen"
         component={ReqBookScreen}
         options={{ headerShown: false }}
@@ -32,7 +49,7 @@ export function HomeStack() {
         component={BookScreen}
         options={{ headerShown: false }}
       />
-    
+
       <Home.Screen
         name="SignupVerifyDriverScreen"
         component={SignupVerifyDriverScreen}
@@ -45,11 +62,6 @@ export function HomeStack() {
       />
 
       <Home.Screen
-        name="HomeScreen"
-        component={HomeScreen}
-        options={{ headerShown: false }}
-      />
-      <Home.Screen
         name="CalculateScreen"
         component={CalculateScreen}
         options={{ headerShown: false }}
@@ -58,12 +70,6 @@ export function HomeStack() {
       <Home.Screen
         name="RatingScreen"
         component={RatingScreen}
-        options={{ headerShown: false }}
-      />
-
-      <Home.Screen
-        name="SplashScreen"
-        component={SplashScreen}
         options={{ headerShown: false }}
       />
 
@@ -86,20 +92,11 @@ export function HomeStack() {
       />
 
       <Home.Screen
-        name="SigninScreen"
-        component={SigninScreen}
-        options={{ headerShown: false }}
-      />
-      <Home.Screen
         name="ForgotPassword"
         component={ForgotPassword}
         options={{ headerShown: false }}
       />
-      <Home.Screen
-        name="SignupScreen"
-        component={SignupScreen}
-        options={{ headerShown: false }}
-      />
+
       <Home.Screen
         name="CameraScreen"
         component={CameraScreen}
