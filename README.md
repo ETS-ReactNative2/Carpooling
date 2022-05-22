@@ -86,5 +86,56 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
   
 </div>
 
+# Schemas
+#### Users
+```
+{
+  name: String,
+  email: String,
+  password: String,
+  address: String,
+  roles: [String] // enum 'passenger', 'driver', 'admin',
+  identityCard: String // photo url
+  drivingLicense: String // photo url
+}
+```
+
+#### Vehicles
+```
+{
+  type: String, // enum 'motorbike', 'threewheeler', 'bus', 'car', 'van', 'suv',
+  passengers: Number,
+  registrationCert: String // photo url
+}
+```
+
+#### rides
+```
+{
+  type: String // enum 'passenger', 'driver'
+  user: ObjectId,
+  from: {
+    lat: Number, 
+    lon: Number
+  },
+  to: {
+    lat: Number, 
+    lon: Number
+  },
+  passengers: Number,
+  time: Date
+}
+```
+
+#### reviews
+```
+{
+  user: ObjectId,
+  about: ObjectId,
+  rating: Number,
+  comment: String
+}
+```
+
 # Importance of the result
 The main purpose of this program is to make it easier for job seekers to stay in touch with multiple people when considering their transportation. The system performs all the required functions. The program already has the essential features. The system will be ready for use soon. The work done by this mobile app is also a great help for problems such as traffic congestion and petroleum shortages in Sri Lanka.
