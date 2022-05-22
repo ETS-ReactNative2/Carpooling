@@ -76,3 +76,15 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
   <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Destination.jpeg?raw=true" alt="drawing" style="width:150px;"/>
   <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Add_01.jpeg?raw=true" alt="drawing" style="width:150px;"/>
 </div>
+
+6. Places Auto Complete page, Rating & Calculate Hire Page
+<div>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/GooglePlaces.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate_02.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate_alert.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  
+</div>
+
+# Importance of the result
+The main purpose of this program is to make it easier for job seekers to stay in touch with multiple people when considering their transportation. The system performs all the required functions. The program already has the essential features. The system will be ready for use soon. The work done by this mobile app is also a great help for problems such as traffic congestion and petroleum shortages in Sri Lanka.
