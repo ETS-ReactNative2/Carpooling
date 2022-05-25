@@ -1,7 +1,7 @@
 # Carpooling
 Carpooling is the sharing of car journeys so that more than one person travels in a car and prevents others from having to drive to a location themselves. Job employees here are specifically targeted.
 
-# Project Description
+# Description
 Carpooling is an android and iOS application that manages everything from one area to another, making it easy for people to work together, with many benefits such as ease of transportation, saving money, reducing pollution, and reducing traffic congestion.
 
 Many mobile apps can rent a vehicle online. But there is a substantial rental cost for the car. Also, if they use their own vehicle, it will take as much time as the cost of petrol. It takes more time as they get stuck in considerable traffic while traveling in their car. This will reduce the time-consuming process as the traffic congestion on the road will be significantly reduced when several people travel together for work in a vehicle.
@@ -19,7 +19,7 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 - This will help provide a proper process for the people going for employment to arrange the transport as required.
 - Various types of mobile applications are used for transportation in Sri Lanka. Take uber, pick me, for example. But those apps do book their car. No mobile app has ever been designed to bring this kind of people together. This allows car owners to see where they are going and where they want to go after putting themselves into the area around them. It will enable you to build a relationship between the vehicle owner and the passenger and travel together with a group of people.
 
-# Project Functions
+# Features
 -  Email Authentication
 -  After registering with the app, the user goes to the document adding the page, considering whether he is a driver or a passenger.
 -  User Passenger goes to National Id & Profile photo adding page, and User driver goes to License & Profile Photo adding page.
@@ -47,7 +47,7 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 ```
 - After that scan, the QR code & can be set up on your mobile phone.
 
-# Project Screenshots
+# Screenshots
 
 1. Splash Page
 <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/splash.jpeg?raw=true" alt="drawing" style="width:150px;"/>
@@ -74,20 +74,19 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 <div>
   <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Add_01.jpeg?raw=true" alt="drawing" style="width:150px;"/>
   <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Destination.jpeg?raw=true" alt="drawing" style="width:150px;"/>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Add_01.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Destination_02.jpeg?raw=true" alt="drawing" style="width:150px;"/>
 </div>
 
 6. Places Auto Complete page, Rating & Calculate Hire Page
 <div>
   <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/GooglePlaces.jpeg?raw=true" alt="drawing" style="width:150px;"/>
   <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate_02.jpeg?raw=true" alt="drawing" style="width:150px;"/>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate_alert.jpeg?raw=true" alt="drawing" style="width:150px;"/>
   <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate.jpeg?raw=true" alt="drawing" style="width:150px;"/>
   
 </div>
 
 # Schemas
-#### Users
+#### users
 ```
 {
   name: String,
@@ -100,7 +99,7 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 }
 ```
 
-#### Vehicles
+#### vehicles
 ```
 {
   type: String, // enum 'motorbike', 'threewheeler', 'bus', 'car', 'van', 'suv',
@@ -136,6 +135,3 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
   comment: String
 }
 ```
-
-# Importance of the result
-The main purpose of this program is to make it easier for job seekers to stay in touch with multiple people when considering their transportation. The system performs all the required functions. The program already has the essential features. The system will be ready for use soon. The work done by this mobile app is also a great help for problems such as traffic congestion and petroleum shortages in Sri Lanka.
