@@ -65,9 +65,8 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 
 4. Home Page
 <div>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Home.jpeg?raw=true" alt="drawing" style="width:150px;"/>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Home_01.jpeg?raw=true" alt="drawing" style="width:150px;"/>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Homepage_02.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Home_03%20(3).jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/Home_04.jpeg?raw=true" alt="drawing" style="width:150px;"/>
 </div>
 
 5. Request Page
@@ -79,9 +78,9 @@ Develop the entire system by adding Add Admin Panel, Location sharing between us
 
 6. Places Auto Complete page, Rating & Calculate Hire Page
 <div>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/GooglePlaces.jpeg?raw=true" alt="drawing" style="width:150px;"/>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate_02.jpeg?raw=true" alt="drawing" style="width:150px;"/>
-  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/googleplace_02.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/rate_03.jpeg?raw=true" alt="drawing" style="width:150px;"/>
+  <img src="https://github.com/nipunid/Carpooling/blob/main/Frontend_ReactNative/assets/calculate_03.jpeg?raw=true" alt="drawing" style="width:150px;"/>
   
 </div>
 
