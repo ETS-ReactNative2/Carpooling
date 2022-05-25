@@ -30,6 +30,7 @@ import CustomFormik from "./CustomFormik";
 //import client from '../api/client';
 import AppNotification from "./AppNotification";
 import { signup } from "../utils/auth";
+import DropDownPicker from 'react-native-dropdown-picker';
 
 const initialValues = {
   name: "",

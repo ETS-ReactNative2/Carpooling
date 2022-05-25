@@ -27,6 +27,23 @@ export function HomeStack() {
         component={SplashScreen}
         options={{ headerShown: false }}
       />
+      <Home.Screen
+        name="HomeScreen"
+        component={HomeScreen}
+        options={{ headerShown: false }}
+      />
+      <Home.Screen
+        name="CalculateScreen"
+        component={CalculateScreen}
+        options={{ headerShown: false }}
+      />
+      
+      
+      <Home.Screen
+        name="RatingScreen"
+        component={RatingScreen}
+        options={{ headerShown: false }}
+      />
 
       <Home.Screen
         name="SignupScreen"
@@ -58,18 +75,6 @@ export function HomeStack() {
       <Home.Screen
         name="SignupVerifyPassengerScreen"
         component={SignupVerifyPassengerScreen}
-        options={{ headerShown: false }}
-      />
-
-      <Home.Screen
-        name="CalculateScreen"
-        component={CalculateScreen}
-        options={{ headerShown: false }}
-      />
-
-      <Home.Screen
-        name="RatingScreen"
-        component={RatingScreen}
         options={{ headerShown: false }}
       />
 

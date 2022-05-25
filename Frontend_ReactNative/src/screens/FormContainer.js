@@ -38,7 +38,7 @@ const { width, height } = Dimensions.get("window");
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#3A7FC9",
+    backgroundColor: "#286ef0",
     // alignItems: 'center'
   },
   header: {
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     alignItems: "center",
     borderRadius: 200,
-    backgroundColor: "#3A7FC9",
+    backgroundColor: "#286ef0",
     marginTop: height * 0.06,
   },
   button: {

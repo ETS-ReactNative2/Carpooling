@@ -67,7 +67,7 @@ const CalculateScreen = (navigation) => {
             style={styles.input}
             onChangeText={onChangeNumber}
             value={number}
-            placeholder="input here......."
+            placeholder="Distance in km.."
             keyboardType="numeric"
           />
         </View>
@@ -108,12 +108,12 @@ const CalculateScreen = (navigation) => {
           position: "relative",
         }}
       >
-        <Text style={[styles.text2, { marginBottom: 10 }]}>Total Cost</Text>
+        <Text style={[styles.text2, { marginBottom: 3 }]}>Total Cost</Text>
         <TextInput
           style={styles.input1}
           onChangeText={onChangeNumber1}
           value={number1}
-          placeholder="input here...."
+          placeholder="cost in here..."
           keyboardType="numeric"
         />
       </View>
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
   },
   text2: {
     color: "black",
-    fontSize: 16,
+    fontSize: 20,
     marginBottom: 25,
     fontWeight: "bold",
   },
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     alignItems: "center",
     borderRadius: 200,
-    backgroundColor: "#3A7FC9",
+    backgroundColor: "#286ef0",
     marginTop: height * 0.02,
   },
   View5: {
@@ -216,7 +216,7 @@ const styles = StyleSheet.create({
     width: "30%",
     padding: 15,
     fontWeight: "bold",
-    backgroundColor: "#3A7FC9",
+    backgroundColor: "#286ef0",
     borderRadius: 50,
     paddingHorizontal: 35,
     marginLeft: 120,

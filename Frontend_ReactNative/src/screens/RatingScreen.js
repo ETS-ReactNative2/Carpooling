@@ -72,7 +72,7 @@ const RatingScreen = () => {
                   {
                     marginTop: 15,
                     marginBottom: 5,
-                    color: "#3A7FC9",
+                    color: "#286ef0",
                   },
                 ]}
               >
@@ -107,19 +107,19 @@ const RatingScreen = () => {
             style={[
               styles.infoBox,
               {
-                borderRightColor: "#3A7FC9",
+                borderRightColor: "#286ef0",
                 borderRightWidth: 2,
               },
             ]}
           >
-            <Title style={{ color: "#3A7FC9" }}>140</Title>
+            <Title style={{ color: "#286ef0" }}>140</Title>
             <Caption>Reviews</Caption>
-            <Icon name="star" color="black" size={20} />
+            <Icon name="star" color="#E8E115" size={20} />
           </View>
           <View style={styles.infoBox}>
-            <Title style={{ color: "#3A7FC9" }}>4.5</Title>
+            <Title style={{ color: "#286ef0" }}>4.5</Title>
             <Caption>Rates</Caption>
-            <Icon name="star" color="black" size={20} />
+            <Icon name="star" color="#E8E115" size={20} />
           </View>
         </View>
         <Text style={styles.textStyle}> Please Rate Us </Text>
@@ -178,9 +178,9 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   infoBoxWrapper: {
-    borderBottomColor: "#3A7FC9",
+    borderBottomColor: "#286ef0",
     borderBottomWidth: 2,
-    borderTopColor: "#3A7FC9",
+    borderTopColor: "#286ef0",
     borderTopWidth: 2,
     flexDirection: "row",
     height: 100,
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
     width: '60%',
     padding: 15,
     fontWeight: 'bold',
-    backgroundColor: '#3A7FC9',
+    backgroundColor: '#286ef0',
     borderRadius: 5,
     paddingHorizontal:35,
     marginLeft:70

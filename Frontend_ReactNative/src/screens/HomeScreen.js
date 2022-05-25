@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
     paddingTop: parameters.statusBarHeight,
   },
   header: {
-    backgroundColor: "#3A7FC9",
+    backgroundColor: "#286ef0",
     paddingTop: parameters.statusBarHeight,
     //height:parameters.headerHeight,
     alignItems: "flex-start",
@@ -235,7 +235,7 @@ const styles = StyleSheet.create({
   },
   image2: { height: 60, width: 60, borderRadius: 30 },
   home: {
-    backgroundColor: "#3A7FC9",
+    backgroundColor: "#286ef0",
     paddingLeft: 20,
   },
 
