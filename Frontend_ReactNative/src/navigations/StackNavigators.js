@@ -22,6 +22,11 @@ const Home = createNativeStackNavigator();
 export function HomeStack() {
   return (
     <Home.Navigator>
+      <Home.Screen
+        name="HomeScreen"
+        component={HomeScreen}
+        options={{ headerShown: false }}
+      />
        <Home.Screen
         name="CalculateScreen"
         component={CalculateScreen}
@@ -32,11 +37,7 @@ export function HomeStack() {
         component={SplashScreen}
         options={{ headerShown: false }}
       />
-      <Home.Screen
-        name="HomeScreen"
-        component={HomeScreen}
-        options={{ headerShown: false }}
-      />
+      
      
       
       
